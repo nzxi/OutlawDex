@@ -1,13 +1,11 @@
 # OutlawDex
-Windows-ready Red Dead Redemption 2 animal lookup. Ships as standalone executables—no Python or extra installs needed.
+Windows-ready Red Dead Redemption 2 animal lookup. Ships as a single standalone executable—no Python or extra installs needed.
 
 ## Repo Name
 - Recommended: `outlaw-dex`
 
 ## Download
-- Grab the latest release assets from the Releases page:
-  - `outlaw-dex-cli-x.y.z-win64.exe` (command-line)
-  - `outlaw-dex-tui-x.y.z-win64.exe` (Textual UI)
+- Grab `OutlawDex.exe` from the Releases page.
 - Optional: verify integrity with the posted SHA256 checksum.
 
 ## What It Does
@@ -16,16 +14,13 @@ Windows-ready Red Dead Redemption 2 animal lookup. Ships as standalone executabl
 - Works completely offline; the bundled `animals.json` data is included.
 
 ## Quickstart (Windows)
-1) Download the CLI or TUI exe and place it anywhere (no install required).  
-2) Run from PowerShell/CMD, or double-click the TUI exe to open the interface.
+1) Download `OutlawDex.exe` and place it anywhere (no install required).  
+2) Run from PowerShell/CMD, or double-click to open the interface.
 
-### CLI examples
+### CLI usage (optional)
 ```bash
-# one-shot search
-outlaw-dex-cli-x.y.z-win64.exe --once "wolf region:grizzlies"
-
-# interactive CLI loop
-outlaw-dex-cli-x.y.z-win64.exe
+OutlawDex.exe --once "wolf region:grizzlies"
+OutlawDex.exe --help
 ```
 
 ### TUI tips
